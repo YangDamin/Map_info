@@ -5,7 +5,7 @@ import Header from "../../Common/Header";
 import Header_top from "../../Common/Header_top";
 import '../F.css'
 
-const Num3 = () => {
+const Num8 = () => {
 
     return (
         <div>
@@ -16,95 +16,95 @@ const Num3 = () => {
                     <input type="button" value="뒤로가기" class="btn btn-outline-dark bg-light text-black flex-shrink-0 me-2 mt-3" onClick={(e)=>{ e.preventDefault(); window.location="/"; }}></input>
                 </div>
                 <div class="row">
-                    <h1 style={{ "fontFamily": 'GmarketSansLight', "padding": "20px" }}>의학관</h1>
+                    <h1 style={{ "fontFamily": 'GmarketSansLight', "padding": "20px" }}>생명과학관</h1>
                 </div>
             </div>
             <div class="container">
                 <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-6">
-                    <Link to="/class3/1" style={{ "textDecoration": "none", "color": "black" }}>
+                    <Link to="/class8/1" style={{ "textDecoration": "none", "color": "black" }}>
                         <div class="col">
                             <div class="card radius-15 bg-light">
                                 <div class="card-body text-center">
                                     <div class="p-4 radius-15">
                                         <div class="mb-0 mt-3 text-white" id="F"><p>1F</p></div>
                                         <div style={{ "fontFamily": 'GmarketSansLight' }}>
-                                            <p class="mb-3 mt-5">3101~3109-1</p>
-                                            <p>주입실</p> <p>저장실</p> <p>실습실</p> <p>전시실</p>
+                                            <p class="mb-3 mt-5">8101~8116</p>
+                                            <p>강의실</p> <p>커피숍</p> <p>THUMB COFFEE</p> 
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </Link>
-                    <Link to="/class3/2" style={{ "textDecoration": "none", "color": "black" }}>
+                    <Link to="/class8/2" style={{ "textDecoration": "none", "color": "black" }}>
                         <div class="col">
                             <div class="card radius-15 bg-light">
                                 <div class="card-body text-center">
                                     <div class="p-4 radius-15">
                                         <div class="mb-0 mt-3 text-white" id="F"><p>2F</p></div>
                                         <div style={{ "fontFamily": 'GmarketSansLight' }}>
-                                            <p class="mb-3 mt-5">3201~3222</p>
-                                            <p>4206~4215</p> <p>강의실</p> <p>미화부실</p> <p>휴게실</p> <p>동아리방</p> <p>학생회실</p>
+                                            <p class="mb-3 mt-5">8201~8213</p>
+                                            <p>강의실</p> <p>생명과학과</p> <p>바이오메디컬학과</p> <p>식품조리학</p> <p>식품영양학 실험실</p> 
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </Link>
-                    <Link to="/class3/3" style={{ "textDecoration": "none", "color": "black" }}>
+                    <Link to="/class8/3" style={{ "textDecoration": "none", "color": "black" }}>
                         <div class="col">
                             <div class="card radius-15 bg-light">
                                 <div class="card-body text-center">
                                     <div class="p-4 radius-15">
                                         <div class="mb-0 mt-3 text-white" id="F"><p>3F</p></div>
                                         <div style={{ "fontFamily": 'GmarketSansLight' }}>
-                                            <p class="mb-3 mt-5">3302~3318</p>
-                                            <p>교수실</p> <p>실습실</p> <p>해부 신경생물학교실</p> <p>휴게실</p> <p>행정실</p> <p>학장실</p> <p>서버실</p>
+                                            <p class="mb-3 mt-5">8301~8313</p>
+                                            <p>실험실</p> <p>생명과학과 교수실</p> <p>자연대학 교학팀</p> <p>실험준비실</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </Link>
-                    <Link to="/class3/4" style={{ "textDecoration": "none", "color": "black" }}>
+                    <Link to="/class8/4" style={{ "textDecoration": "none", "color": "black" }}>
                         <div class="col">
                             <div class="card radius-15 bg-light">
                                 <div class="card-body text-center">
                                     <div class="p-4 radius-15">
                                         <div class="mb-0 mt-3 text-white" id="F"><p>4F</p></div>
                                         <div style={{ "fontFamily": 'GmarketSansLight' }}>
-                                            <p class="mb-3 mt-5">3401~3421</p>
-                                            <p>교수실</p> <p>연구실</p> <p>세미나실</p> <p>약리학교실</p> <p>생리학교실</p> <p>공동기기실</p>
+                                            <p class="mb-3 mt-5">8400~8437</p>
+                                            <p>실험실</p> <p>바이오메디컬학과 교수실</p> <p>세미나실</p> <p>자연대 PC실</p> <p>강당</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </Link>
-                    <Link to="/class3/5" style={{ "textDecoration": "none", "color": "black" }}>
+                    <Link to="/class8/5" style={{ "textDecoration": "none", "color": "black" }}>
                         <div class="col">
                             <div class="card radius-15 bg-light">
                                 <div class="card-body text-center">
                                     <div class="p-4 radius-15">
                                         <div class="mb-0 mt-3 text-white" id="F"><p>5F</p></div>
                                         <div style={{ "fontFamily": 'GmarketSansLight' }}>
-                                            <p class="mb-3 mt-5">3502~3516</p>
-                                            <p>교수실</p> <p>연구소</p> <p>세미나실</p> <p>미생물학교실</p> <p>행정실</p> <p>연구소</p>
+                                            <p class="mb-3 mt-5">8501~8543</p>
+                                            <p>실험실</p> <p>환경생명공학과 교수실</p> <p>세미나실</p> <p>공동기기실</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </Link>
-                    <Link to="/class3/6" style={{ "textDecoration": "none", "color": "black" }}>
+                    <Link to="/class8/6" style={{ "textDecoration": "none", "color": "black" }}>
                         <div class="col">
                             <div class="card radius-15 bg-light">
                                 <div class="card-body text-center">
                                     <div class="p-4 radius-15">
                                         <div class="mb-0 mt-3 text-white" id="F"><p>6F</p></div>
                                         <div style={{ "fontFamily": 'GmarketSansLight' }}>
-                                            <p class="mb-3 mt-5">3601~3612</p>
-                                            <p>교수실</p> <p>강의실</p> <p>공동실험실</p> <p>화상회의실</p>
+                                            <p class="mb-3 mt-5">8601~8624</p>
+                                            <p>실험실</p> <p>언어청각학부 교수실</p> <p>세미나실</p> <p>재활실</p> <p>생명공학연구소</p>
                                         </div>
                                     </div>
                                 </div>
@@ -118,4 +118,4 @@ const Num3 = () => {
     )
 }
 
-export default Num3;
+export default Num8;

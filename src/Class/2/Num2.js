@@ -26,7 +26,7 @@ const Num2 = () => {
                             <div class="card radius-15 bg-light">
                                 <div class="card-body text-center">
                                     <div class="p-4 radius-15">
-                                        <div class="mb-0 mt-3 text-white" id="F_2"><p>1F</p></div>
+                                        <div class="mb-0 mt-3 text-white" id="F"><p>1F</p></div>
                                         <div style={{ "fontFamily": 'GmarketSansLight' }}>
                                             <p class="mb-3 mt-5">2103~2113</p>
                                             <p>교무팀</p> <p>입학팀</p> <p>심층입학상담실</p> <p>시설팀</p> <p>Cafe</p>
@@ -41,7 +41,7 @@ const Num2 = () => {
                             <div class="card radius-15 bg-light">
                                 <div class="card-body text-center">
                                     <div class="p-4 radius-15">
-                                        <div class="mb-0 mt-3 text-white" id="F_2"><p>2F</p></div>
+                                        <div class="mb-0 mt-3 text-white" id="F"><p>2F</p></div>
                                         <div style={{ "fontFamily": 'GmarketSansLight' }}>
                                             <p class="mb-3 mt-5">2201~2214</p>
                                             <p>총장실</p> <p>비서실</p> <p>기획처장실</p> <p>예산팀</p> <p>혁신지원사원팀</p>
@@ -56,7 +56,7 @@ const Num2 = () => {
                             <div class="card radius-15 bg-light">
                                 <div class="card-body text-center">
                                     <div class="p-4 radius-15">
-                                        <div class="mb-0 mt-3 text-white" id="F_2"><p>3F</p></div>
+                                        <div class="mb-0 mt-3 text-white" id="F"><p>3F</p></div>
                                         <div style={{ "fontFamily": 'GmarketSansLight' }}>
                                             <p class="mb-3 mt-5">2302~2312</p>
                                             <p>행정서비스팀</p> <p>교무처장실</p> <p>교원인사팀</p> <p>우편실</p> <p>재무팀</p> <p>학생처장실</p>
@@ -71,7 +71,7 @@ const Num2 = () => {
                             <div class="card radius-15 bg-light">
                                 <div class="card-body text-center">
                                     <div class="p-4 radius-15">
-                                        <div class="mb-0 mt-3 text-white" id="F_2"><p>4F</p></div>
+                                        <div class="mb-0 mt-3 text-white" id="F"><p>4F</p></div>
                                         <div style={{ "fontFamily": 'GmarketSansLight' }}>
                                             <p class="mb-3 mt-5">2401~2450</p>
                                             <p>교수실</p> <p>철학 사학 국어국문 영어영문학과 세미나실</p> <p>인문대 PC실</p>
@@ -86,7 +86,7 @@ const Num2 = () => {
                             <div class="card radius-15 bg-light">
                                 <div class="card-body text-center">
                                     <div class="p-4 radius-15">
-                                        <div class="mb-0 mt-3 text-white" id="F_2"><p>5F</p></div>
+                                        <div class="mb-0 mt-3 text-white" id="F"><p>5F</p></div>
                                         <div style={{ "fontFamily": 'GmarketSansLight' }}>
                                             <p class="mb-3 mt-5">2501~2552</p>
                                             <p>교수실</p> <p>일본학연구소</p> <p>지역사회갈등전환센터</p> <p>인문대학 교학팀</p> <p>문서고</p>
@@ -101,7 +101,7 @@ const Num2 = () => {
                             <div class="card radius-15 bg-light">
                                 <div class="card-body text-center">
                                     <div class="p-4 radius-15">
-                                        <div class="mb-0 mt-3 text-white" id="F_2"><p>6F</p></div>
+                                        <div class="mb-0 mt-3 text-white" id="F"><p>6F</p></div>
                                         <div style={{ "fontFamily": 'GmarketSansLight' }}>
                                             <p class="mb-3 mt-5">2601~2634</p>
                                             <p>이사장실</p> <p>한림과학원</p> <p>교수실</p> <p>아시아문화연구원</p>

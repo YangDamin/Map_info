@@ -26,7 +26,7 @@ const Num4 = () => {
                             <div class="card radius-15 bg-light">
                                 <div class="card-body text-center">
                                     <div class="p-4 radius-15">
-                                        <div class="mb-0 mt-3 text-white" id="F_4"><p>3F</p></div>
+                                        <div class="mb-0 mt-3 text-white" id="F"><p>3F</p></div>
                                         <div style={{ "fontFamily": 'GmarketSansLight' }}>
                                             <p class="mb-3 mt-5">4301~4321</p>
                                             <p>연구윤리센터</p> <p>서버실</p> <p>소장실</p> <p>실험실</p> <p>교학팀</p> <p>휴게실</p> <p>예비군연대</p>
@@ -41,7 +41,7 @@ const Num4 = () => {
                             <div class="card radius-15 bg-light">
                                 <div class="card-body text-center">
                                     <div class="p-4 radius-15">
-                                        <div class="mb-0 mt-3 text-white" id="F_4"><p>4F</p></div>
+                                        <div class="mb-0 mt-3 text-white" id="F"><p>4F</p></div>
                                         <div style={{ "fontFamily": 'GmarketSansLight' }}>
                                             <p class="mb-3 mt-5">4403~4446</p>
                                             <p>강의실</p> <p>세미나실</p> <p>글로벌존</p> <p>인문대강당</p> <p>창고</p> <p>재무팀서고</p>
@@ -56,7 +56,7 @@ const Num4 = () => {
                             <div class="card radius-15 bg-light">
                                 <div class="card-body text-center">
                                     <div class="p-4 radius-15">
-                                        <div class="mb-0 mt-3 text-white" id="F_4"><p>5F</p></div>
+                                        <div class="mb-0 mt-3 text-white" id="F"><p>5F</p></div>
                                         <div style={{ "fontFamily": 'GmarketSansLight' }}>
                                             <p class="mb-3 mt-5">4502~4512</p>
                                             <p>강의실</p> <p>공조실</p> <p>창고</p>
