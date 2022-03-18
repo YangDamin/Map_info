@@ -1,0 +1,16 @@
+#main_nav {
+    font-family: 'GmarketSansMedium';
+    height: 690px;
+    overflow: auto;
+}
+
+.nav-link {
+    color: black;
+    text-align: left;
+}
+
+.nav-link span {
+    color:white;
+    background-color: #093555;
+    padding: 5px;
+}

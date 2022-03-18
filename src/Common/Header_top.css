@@ -1,0 +1,14 @@
+#header_top_css{
+    background-color: #093555;
+    font-family: 'GmarketSansMedium';
+    text-align: left;
+    font-size: 20px;
+    padding-left: 130px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#a_headerTop {
+    text-decoration-line: none;
+    color: #235F8E;
+}
