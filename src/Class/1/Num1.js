@@ -9,8 +9,6 @@ const Num1 = () => {
 
     return (
         <div>
-            <Header_top/>
-            <Header/>
             <div class="row">
                 <div class="row" style={{"width":"150px", "marginLeft":"110px", "fontFamily": 'GmarketSansLight'}}>
                     <input type="button" value="뒤로가기" class="btn btn-outline-dark bg-light text-black flex-shrink-0 me-2 mt-3" onClick={(e)=>{ e.preventDefault(); window.location="/"; }}></input>
@@ -83,7 +81,6 @@ const Num1 = () => {
                     </Link>
                 </div>
             </div>
-            <Footer/>
         </div>
     )
 }

@@ -2,7 +2,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Num1 from './Class/1/Num1';
-import MainFinal from './Main/MainFinal';
 import Num1_detail from './Class/1/Num1_detail';
 import Num2 from './Class/2/Num2';
 import Num2_detail from './Class/2/Num2_detail';
@@ -29,14 +28,20 @@ import Num16 from './Class/16/Num16';
 import Num16_detail from './Class/16/Num16_detail';
 import Num22 from './Class/22/Num22';
 import Num22_detail from './Class/22/Num22_detail';
+import Footer from './Common/Footer';
+import Header_top from './Common/Header_top';
+import Header from './Common/Header';
+import Main from './Main/Main';
 
 function App() {
   return (
     <div className="App">
 
       <BrowserRouter>
+      <Header_top></Header_top>
+      <Header></Header>
         <Routes>
-          <Route path="/" element={<MainFinal/>}></Route>
+          <Route path="/" element={<Main/>}></Route>
           <Route path="/class1" element={<Num1/>}></Route>
           <Route path="/class1/:floor" element={<Num1_detail/>}></Route>
 
@@ -103,6 +108,7 @@ function App() {
           <Route path="/class35" element={<Sorry/>}></Route>
           <Route path="/class36" element={<Sorry/>}></Route>
         </Routes>
+        <Footer></Footer>
       </BrowserRouter>
     </div>
   );
